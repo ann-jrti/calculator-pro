@@ -10,7 +10,6 @@ const sumArray = (array) => {
     sumOfNumbers += array[i];
   }
   result.push(threeDecimals(sumOfNumbers));
-  return sumOfNumbers;
 };
 
 //calculates rest of nums of the array
@@ -24,7 +23,6 @@ const restArray = (array) => {
     }
   }
   result.push(threeDecimals(restOfNumbers));
-  return restOfNumbers;
 };
 
 //calculates multiplication of nums of the array
@@ -38,7 +36,6 @@ const multiplicateArray = (array) => {
     }
   }
   result.push(threeDecimals(multOfNumbers));
-  return multOfNumbers;
 };
 
 //calculates division of nums of the array
@@ -52,7 +49,6 @@ const divideArray = (array) => {
     }
   }
   result.push(threeDecimals(divisionOfNumbers));
-  return divisionOfNumbers;
 };
 
 //calculates square root of a number
